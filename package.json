@@ -1,0 +1,16 @@
+{
+  "name": "snapbattle-server",
+  "version": "1.0.0",
+  "description": "Multiplayer WebSocket server for SnapBattle",
+  "type": "module",
+  "main": "snap-server.mjs",
+  "scripts": {
+    "start": "node snap-server.mjs"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
